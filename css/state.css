@@ -47,7 +47,7 @@
   filter: grayscale(0);
 }
 
-.hover:hover .hover.hover {
+.hover:hover {
   opacity: 10;
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
@@ -60,4 +60,3 @@ nav a:hover {
 nav a:active {
   opacity: 0.5;
 }
-
