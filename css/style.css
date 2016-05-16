@@ -1,0 +1,454 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+.home {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.intro {
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  margin: auto;
+  padding: 2em;
+}
+
+.logo {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding: 20% 0 14% 0;
+}
+
+.subtitle {
+  font-family: "Open Sans Regular", "arial";
+  color: white;
+  font-size: .8em;
+  text-align: center;
+}
+
+.main-link {
+  font-size: 1em;
+  text-decoration: none;
+  color: #e43d46;
+  font-family: "Open Sans Semibold";
+  border: solid;
+  border-color: #e43d46;
+  padding: 1em;
+  text-transform: uppercase;
+  display: block;
+  margin: 7% auto;
+  width: 10em;
+  text-align: center;
+}
+
+.view-link {
+  font-size: 1em;
+  text-decoration: none;
+  color: #e43d46;
+  font-family: "Open Sans Semibold";
+  border: solid;
+  border-color: #e43d46;
+  padding: 1em;
+  text-transform: uppercase;
+  display: block;
+  margin: 7% auto;
+  width: 10em;
+  text-align: center;
+}
+
+.contact {
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans Semibold";
+  padding: 1em;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  width: 7em;
+  text-align: center;
+  background-color: #e43d46;
+}
+
+.icons {
+  margin: 3em 0 0 0;
+  background-color: #e43d46;
+  width: 7em;
+  padding: 1em 2.75em;
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  margin: 5em 0;
+}
+
+.icons li {
+  padding: .5em 0;
+}
+
+.intro {
+   padding: 2em 0 7em 0;
+   position: fixed;
+  }
+
+.work {
+  z-index: 150;
+  position: relative;
+  top: 28em;
+  background-color: #1e252f;
+}
+
+.work img {
+  width: 100%;
+  margin: 5% 0;
+}
+
+/*design pages*/
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-family: "Open Sans Regular", "arial";
+  text-transform: uppercase;
+  font-size: .85em;
+  margin-bottom: 1em;
+}
+
+ul {
+  background-color: #e43d46;
+  text-align: center;
+  padding: 4% 5%;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.design-page {
+  background-color: #f7f7f7;
+}
+
+.paper {
+  margin: 15% 5%;
+}
+
+.project-title {
+  font-family: "Open Sans Semibold";
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #1e252f;
+  margin: 4em 0 1.25em 0;
+}
+
+.project-description {
+  font-family: "Open Sans Regular", "arial";
+  font-size: 1em;
+  color: #1e252f;
+  margin-bottom: 2em;
+  line-height: 1.5em;
+}
+
+.project-img {
+  width: 100%;
+  margin: 2.5% 0 2.5% 0;
+}
+
+@media only screen and (min-width: 30em) and (max-width: 50em) {
+
+  .logo {
+    width: 18%;
+    padding: 10% 0 5% 0;
+  }
+
+  .main-link {
+    margin: 5% auto;
+  }
+
+  .intro {
+   padding: 2em 0 8em 0;
+   position: fixed;
+  }
+
+  .work {
+   z-index: 150;
+   position: relative;
+   top: 25em;
+  }
+
+  .work img {
+    margin: 0;
+  }
+
+  ul {
+    background-color: #e43d46;
+    text-align: right;
+    padding: 1.75% 5%;
+  }
+
+  .paper {
+    clear: both;
+    margin: 10% 5%;
+  }
+
+  .project-intro {
+    background-color: #1e252f;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 2.5% 0 5% 0;
+    padding: 5%;
+  }
+
+  .project-work {
+    width: 60%;
+    display: block;
+    float: right;
+    margin: 2.5% 0 5% 0;
+    padding: 0 0 0 2em;
+  }
+
+  .project-img {
+    margin: 0 0 2em 0;
+  }
+
+  .project-img:last-child {
+    margin: 5% 0 0 0;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 1.25em;
+  }
+
+  .project-description {
+    color: white;
+  }
+
+  .view-link {
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 50em) and (max-width: 75em) {
+
+  .logo {
+    width: 20%;
+    padding: 10% 0 7% 0;
+  }
+
+  .main-link {
+    font-size: 1.25em;
+    margin: 4% auto;
+  }
+
+  .contact {
+    font-size: 1.5em;
+  }
+
+  .intro {
+   padding: 2em 0 10em 0;
+   position: fixed;
+  }
+
+  .work {
+   z-index: 150;
+   position: relative;
+   top: 36em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .work img {
+    margin: 0;
+  }
+
+  nav {
+    font-size: 1.15em;
+  }
+
+  ul {
+    background-color: #e43d46;
+    text-align: right;
+    padding: 1.75% 5%;
+  }
+  
+  .icons {
+    margin: 4.5em 0 0 0;
+    background-color: #e43d46;
+    width: 10.5em;
+    padding: 1em 4.25em;
+    display: none;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .icons a {
+    font-size: 2em;
+  }
+
+  .paper {
+    clear: both;
+    margin: 5% 5%;
+  }
+
+  .project-intro {
+    background-color: #1e252f;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 2.5% 0 5% 0;
+    padding: 5%;
+  }
+
+  .project-work {
+    width: 60%;
+    display: block;
+    float: right;
+    margin: 2.5% 0 5% 0;
+    padding: 0 0 0 2em;
+  }
+
+  .project-img {
+    margin: 0 0 2em 0;
+  }
+
+  .project-img:last-child {
+    margin: 5% 0 0 0;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 1.25em;
+  }
+
+  .project-description {
+    color: white;
+  }
+
+  .view-link {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+
+  .logo {
+    width: 12%;
+    padding: 5% 0 5% 0;
+  }
+   
+   .main-link {
+    font-size: 1.45em;
+    margin: 3% auto;
+  }
+
+  .contact {
+    font-size: 1.5em;
+  }
+
+  .intro {
+    position: fixed;
+    padding: 10em 0 25em 0;
+  }
+
+  .work {
+    z-index: 150;
+    position: relative;
+    top: 53em;
+  }
+   
+  .subtitle {
+    font-size: 2em;
+  }
+
+  .work img {
+    margin: 0;
+  }
+
+  nav {
+    font-size: 1.25em;
+  }
+
+  ul {
+    background-color: #e43d46;
+    text-align: right;
+    padding: 1% 5%;
+  }
+
+  .icons {
+    margin: 4.5em 0 0 0;
+    background-color: #e43d46;
+    width: 10.5em;
+    padding: 1em 4.25em;
+    display: none;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .icons a {
+    font-size: 2em;
+  }
+
+  .paper {
+    clear: both;
+    margin: 5% 5%;
+  }
+
+  .project-intro {
+    background-color: #1e252f;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 2.5% 0 5% 0;
+    padding: 5%;
+  }
+
+  .project-work {
+    width: 60%;
+    display: block;
+    float: right;
+    margin: 2.5% 0 5% 0;
+    padding: 0 0 0 2em;
+  }
+
+  .project-img {
+    margin: 0 0 2.5% 0;
+  }
+
+  .project-img:last-child {
+    margin: 0;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .project-description {
+    color: white;
+  }
+
+  .view-link {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,63 @@
+.main-link:hover {
+  color: #ffffff;
+  background-color: #e43d46;
+}
+
+.main-link:active {
+  color: #ffffff;
+  background-color: #e43d46;
+}
+
+.contact:hover {
+  background: none;
+  border: solid;
+  border-color: #e43d46;
+  border-top: none;
+  color: #e43d46;
+}
+
+.contact:active {
+  background: none;
+  border: solid;
+  border-color: #e43d46;
+  border-top: none;
+  border-bottom: none;
+  color: #e43d46;
+}
+
+.icons a:hover {
+  opacity: 0.5;
+}
+
+.icons a:active {
+  opacity: 0.5;
+}
+
+.hover {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover:active {
+  opacity: 10;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.hover:hover {
+  opacity: 10;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+nav a:hover {
+  opacity: 0.5;
+}
+
+nav a:active {
+  opacity: 0.5;
+}
+
