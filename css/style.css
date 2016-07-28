@@ -3,6 +3,10 @@
   box-sizing: border-box;
  }
 
+body {
+  background-color: #f7f7f7;
+}
+
 .home {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -100,7 +104,7 @@
 .intro {
    padding: 2em 0 7em 0;
    position: fixed;
-  }
+}
 
 .work {
   z-index: 150;
@@ -141,33 +145,57 @@ nav a {
   color: #ffffff;
 }
 
-.design-page {
-  background-color: #f7f7f7;
-}
-
-.paper {
-  margin: 15% 5%;
+.project-intro {
+  background-color: #1e252f;
+  margin: 0;
 }
 
 .project-title {
   font-family: "Open Sans Semibold";
   text-transform: uppercase;
-  font-size: 1em;
-  color: #1e252f;
-  margin: 4em 0 1.25em 0;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #ffffff;
+  padding: 4.5em 2em 4em 2em;
 }
+
 
 .project-description {
   font-family: "Open Sans Regular", "arial";
   font-size: 1em;
   color: #1e252f;
-  margin-bottom: 2em;
+  margin: 2em;
   line-height: 1.5em;
+}
+
+.personal {
+  font-family: "Open Sans Regular", "arial";
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 1.5em;
+   margin-bottom: 2em;
+  background-color: #1e252f;
+  text-transform: uppercase;
+  padding: 1em;
+  text-align: center;
+}
+
+.professional {
+  font-family: "Open Sans Regular", "arial";
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  background-color: #e43d46;
+  text-transform: uppercase;
+  padding: 1em;
+  text-align: center;
 }
 
 .project-img {
   width: 100%;
-  margin: 2.5% 0 2.5% 0;
+  margin: 5% 0;
 }
 
 @media only screen and (min-width: 30em) and (max-width: 50em) {
@@ -198,53 +226,12 @@ nav a {
 
   ul {
     background-color: #e43d46;
-    text-align: right;
     padding: 1.75% 5%;
   }
 
-  .paper {
-    clear: both;
-    margin: 10% 5%;
+  nav {
+    font-size: 1em;
   }
-
-  .project-intro {
-    background-color: #1e252f;
-    width: 40%;
-    float: left;
-    display: inline-block;
-    margin: 2.5% 0 5% 0;
-    padding: 5%;
-  }
-
-  .project-work {
-    width: 60%;
-    display: block;
-    float: right;
-    margin: 2.5% 0 5% 0;
-    padding: 0 0 0 2em;
-  }
-
-  .project-img {
-    margin: 0 0 2em 0;
-  }
-
-  .project-img:last-child {
-    margin: 5% 0 0 0;
-  }
-
-  .project-title {
-    color: white;
-    font-size: 1.25em;
-  }
-
-  .project-description {
-    color: white;
-  }
-
-  .view-link {
-    margin-left: 0;
-  }
-
 }
 
 @media only screen and (min-width: 50em) and (max-width: 75em) {
@@ -288,8 +275,8 @@ nav a {
 
   ul {
     background-color: #e43d46;
-    text-align: right;
     padding: 1.75% 5%;
+    text-align: right;
   }
   
   .icons {
@@ -306,51 +293,32 @@ nav a {
     font-size: 2em;
   }
 
-  .paper {
-    clear: both;
-    margin: 5% 5%;
-  }
-
   .project-intro {
     background-color: #1e252f;
-    width: 40%;
-    float: left;
-    display: inline-block;
-    margin: 2.5% 0 5% 0;
-    padding: 5%;
-  }
-
-  .project-work {
-    width: 60%;
-    display: block;
-    float: right;
-    margin: 2.5% 0 5% 0;
-    padding: 0 0 0 2em;
-  }
-
-  .project-img {
-    margin: 0 0 2em 0;
-  }
-
-  .project-img:last-child {
-    margin: 5% 0 0 0;
+    margin: 0;
   }
 
   .project-title {
-    color: white;
-    font-size: 1.25em;
+    font-size: 2em;
+    padding: 4.75em 2em 4em 2em;
+  }
+
+  .project-copy {
+    width: 65%;
+    margin: 5% 17.5%;
   }
 
   .project-description {
-    color: white;
+    margin: 2em 0;
   }
 
-  .view-link {
-    margin-left: 0;
+  .project-img {
+    width: 65%;
+    margin: 5% 17.5%;
   }
 }
-
-@media only screen and (min-width: 75em) {
+ 
+@media only screen and (min-width: 75em) and (max-width: 100em) {
 
   .logo {
     width: 12%;
@@ -391,8 +359,8 @@ nav a {
 
   ul {
     background-color: #e43d46;
-    text-align: right;
     padding: 1% 5%;
+    text-align: right;
   }
 
   .icons {
@@ -409,46 +377,99 @@ nav a {
     font-size: 2em;
   }
 
-  .paper {
-    clear: both;
-    margin: 5% 5%;
-  }
-
-  .project-intro {
-    background-color: #1e252f;
-    width: 40%;
-    float: left;
-    display: inline-block;
-    margin: 2.5% 0 5% 0;
-    padding: 5%;
-  }
-
-  .project-work {
-    width: 60%;
-    display: block;
-    float: right;
-    margin: 2.5% 0 5% 0;
-    padding: 0 0 0 2em;
-  }
-
-  .project-img {
-    margin: 0 0 2.5% 0;
-  }
-
-  .project-img:last-child {
-    margin: 0;
-  }
-
   .project-title {
-    color: white;
-    font-size: 1.5em;
+    font-size: 3em;
+  }
+
+  .project-copy {
+    width: 55%;
+    margin: 5% 22.5%;
   }
 
   .project-description {
-    color: white;
+    margin: 2em 0;
   }
 
-  .view-link {
-    margin-left: 0;
+  .project-img {
+    width: 55%;
+    margin: 3% 22.5%;
+  }
+}
+
+@media only screen and (min-width: 100em) {
+
+   .logo {
+    width: 12%;
+    padding: 5% 0 5% 0;
+  }
+   
+   .main-link {
+    font-size: 1.45em;
+    margin: 3% auto;
+  }
+
+  .contact {
+    font-size: 1.5em;
+  }
+
+  .intro {
+    position: fixed;
+    padding: 10em 0 25em 0;
+  }
+
+  .work {
+    z-index: 150;
+    position: relative;
+    top: 53em;
+  }
+   
+  .subtitle {
+    font-size: 2em;
+  }
+
+  .work img {
+    margin: 0;
+  }
+
+  nav {
+    font-size: 1.25em;
+  }
+
+  ul {
+    background-color: #e43d46;
+    padding: 1% 5%;
+    text-align: right;
+  }
+
+  .icons {
+    margin: 4.5em 0 0 0;
+    background-color: #e43d46;
+    width: 10.5em;
+    padding: 1em 4.25em;
+    display: none;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .icons a {
+    font-size: 2em;
+  }
+
+  .project-title {
+    font-size: 3.5em;
+  }
+
+  .project-copy {
+    width: 30%;
+    margin: 5% 35% 2% 35%;
+  }
+
+  .project-description {
+    margin: 2em 0;
+  }
+
+  .project-img {
+    width: 30%;
+    margin: 2% 35%;
   }
 }

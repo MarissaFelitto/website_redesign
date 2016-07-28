@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (min-width: 100em) {
+/*@media only screen and (min-width: 75em) {
 
   .group_project {
     width: 100%;
@@ -36,4 +36,4 @@
     column-gap: 2.5%;
     column-width: 47.5%;
   }
-}
+}*/
